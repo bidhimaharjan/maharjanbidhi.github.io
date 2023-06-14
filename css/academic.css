@@ -1,0 +1,48 @@
+@import url(style.css);
+
+/*---------- ACADEMIC BACKGROUND ----------*/
+.section__title{
+    font-size: var(--big-font-size);
+    color: var(--theme-color);
+    text-align: center;
+    margin-bottom: var(--mb-1-5);
+}
+
+.academic__data{
+    margin-bottom: var(--mb-2);
+}
+
+.academic__title{
+    font-size: var(--h2-font-size);
+    color: var(--theme-color);
+    font-weight: var(--font-semi-bold);
+}
+
+.academic__subtitle{
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.academic__description{
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+/* For small devices */
+@media screen and (max-width: 350px){
+    .academic__icon{
+        font-size: 1rem;
+    }
+
+    .academic__description{
+        font-size: .8rem;
+    }
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px){
+    .academic__container{
+        height: 70vh;
+    }
+}
